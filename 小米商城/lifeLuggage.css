@@ -1,0 +1,65 @@
+#banner{
+    width: 100%;
+    height: 620px;
+    background-image: url(images/lifeLuggage/banner01.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+#rt{
+    height: 90px;
+    font-size: 25px;
+    color: rgb(51, 51, 51);
+    line-height: 90px;
+}
+#con{
+    width: 1226px;
+    height: 1500px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+#con li{
+    height: 485px;
+    width: 607px;
+}
+.pic00{
+    width: 607px;
+    height: 360px;
+}
+#con li img{
+    width: 607px;
+    height: 360px;
+    cursor: pointer;
+}
+.rtDetail{
+    width: 607px;
+    height: 125px;
+    padding: 0 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name01{
+    font-size: 14px;
+    color: rgb(87, 87, 87);
+}
+.name01 a{
+    font-size: 25px;
+    color: rgb(51, 51, 51);
+}
+.price01{
+    font-size: 30px;
+    color: #ff6700;
+}
+.price01 span{
+    font-size: 14px;
+}
+#con>li:hover{
+    box-shadow: 0 5px 20px rgb(197, 197, 197);
+    transform: translateY(-5px);
+    transition: all 0.5s linear;
+}
